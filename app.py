@@ -25,14 +25,41 @@
 #else:
 #    print("incorrect")
 
-x = "test"
-print(f"hello {x}")
+#x = "test"
+#print(f"hello {x}")
 
 
-temp = 75
-if temp > 68:
-    print('warm')
-elif temp == 68:
-    print('perfect')
+#temp = 75
+#if temp > 68:
+#    print('warm')
+#elif temp == 68:
+#    print('perfect')
+#else:
+#    print('cold')
+
+#numbers = int(input("give number PLEASE"))
+#if (numbers % 2) == 0:
+#    print("even")
+#else:
+#    print("odd")
+Service = ["bad" , "okay" , "good" , "great"]
+tip_giver2 = (input("how was service?"))
+tip_giver = int(input("what is the bill?"))
+if tip_giver2 == "bad":
+    print(tip_giver)
 else:
-    print('cold')
+    if tip_giver2 == "okay":
+        print(tip_giver * 0.15 + tip_giver)
+    elif tip_giver2 == "good":
+        print(tip_giver * 0.2 + tip_giver)
+    else:
+        if tip_giver2 == "great":
+            print(tip_giver * 0.25 + tip_giver)
+    
+ 
+
+
+
+
+
+
