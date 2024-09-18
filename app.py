@@ -42,19 +42,26 @@
 #    print("even")
 #else:
 #    print("odd")
-Service = ["bad" , "okay" , "good" , "great"]
-tip_giver2 = (input("how was service?"))
-tip_giver = int(input("what is the bill?"))
-if tip_giver2 == "bad":
-    print(tip_giver)
-else:
-    if tip_giver2 == "okay":
-        print(tip_giver * 0.15 + tip_giver)
-    elif tip_giver2 == "good":
-        print(tip_giver * 0.2 + tip_giver)
-    else:
-        if tip_giver2 == "great":
-            print(tip_giver * 0.25 + tip_giver)
+#Service = ["bad" , "okay" , "good" , "great"]
+#tip_giver2 = (input("how was service?"))
+#tip_giver = int(input("what is the bill?"))
+#if tip_giver2 == "bad":
+#    print(tip_giver)
+#else:
+#    if tip_giver2 == "okay":
+#        print(tip_giver * 0.15 + tip_giver)
+#    elif tip_giver2 == "good":
+#        print(tip_giver * 0.2 + tip_giver)
+#    else:
+#        if tip_giver2 == "great":
+#            print(tip_giver * 0.25 + tip_giver)
+
+GCF = int(input("Give a number"))
+GCF2 = int(input("Give a differemt number"))
+
+for i in range(1,GCF+GCF2):
+    if GCF%i == 0 and GCF2%i== 0:
+        print(i)
     
  
 
