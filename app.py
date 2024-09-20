@@ -56,7 +56,7 @@ else:
         if tip_giver2 == "great":
             print(tip_giver * 0.25 + tip_giver) """
 
-Calculations = ["add", "subtract", "multiply", "divide"]
+""" Calculations = ["add", "subtract", "multiply", "divide"]
 number = int(input("Give number"))
 number2 = int(input("Give more number"))
 calulate = (input("calculate"))
@@ -64,21 +64,16 @@ if calulate == "add":
     print(number + number2)
 else:
     if calulate == "subtract":
-        print(number2-number)
+        print(number-number2)
     else:
-        if calulate == "muliply":
+        if calulate == "multiply":
             print(number * number2)
-            
+        elif calulate == "divide":
+            print(number/number2)
+ """
 
-#GCF = int(input("Give a number"))
-#GCF2 = int(input("Give a differemt number"))
-#for i in range(1,GCF+GCF2):
-#    if GCF%i == 0 and GCF2%i== 0:
-#        print(i)
-    
-
-
-
-
-
-
+GCF = int(input("Give a number"))
+GCF2 = int(input("Give a different number"))
+for factors in range(1,GCF):
+    if GCF%factors == 0 and GCF2%factors == 0:
+        print(factors)
