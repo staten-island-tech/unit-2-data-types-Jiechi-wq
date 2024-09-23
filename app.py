@@ -72,8 +72,10 @@ else:
             print(number/number2)
  """
 
+GCFlist = []
 GCF = int(input("Give a number"))
 GCF2 = int(input("Give a different number"))
-for factors in range(1,GCF):
-    if GCF%factors == 0 and GCF2%factors == 0:
-        print(factors)
+for i in range(1,GCF):
+    if GCF%i == 0 and GCF2%i == 0:
+        GCFlist.append(i)
+print(GCFlist[-1])
